@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-background">
+    <header class="text-white">
+        <nav class="max-w-7xl mx-auto bg-gray-800 md:bg-transparent p-5">
+            <div class="flex items-center justify-between">
+                <a href="/"><img class="max-w-40"
+                        src="https://ubiquo.io/wp-content/uploads/sites/24/2018/11/creative-agency-home-transparent-portfolio-logo-1.png"
+                        alt="Portfolio"></a>
+
+                <!-- nav only for large screens -->
+                <div class="hidden md:flex space-x-10">
+                    <a href="#home" class="text-primary hover:text-gray-400">Home</a>
+                    <a href="#Projects" class="text-white hover:text-gray-400">Projects</a>
+                    <a href="#resume" class="text-white hover:text-gray-400">Resume</a>
+                </div>
+                <!-- menu button only available in mobile , always hidden -->
+
+
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white text-2xl">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden m-2">
+                <a href="#home" class="text-primary hover:text-gray-400 block m-2">Home</a>
+                <a href="#Projects" class="text-white hover:text-gray-400 block m-2">Projects</a>
+                <a href="#resume" class="text-white hover:text-gray-400 block m-2">Resume</a>
+            </div>
+
+        </nav>
+    </header>
+<!-- banner section -->
+    <section class="max-w-7xl mx-auto px-5 my-12 ">
+        <div class="py-10 text-white flex flex-col md:flex-row  justify-between items-center gap-4">
+            <!-- left-side -->
+            <div class="md:w-1/2" >
+                <p class="text-3xl font-semibold mb-4">Hello <span>I'm</span></p>
+                <h1 class="text-4xl font-bold mb-5 tracking-widest">Anupam Raj</h1>
+                <p class="text-2xl mb-5">Frontend Developer</p>
+                <p class="text-xl mb-12 md:w-3/4 text-justify leading-8">I am commited to finding immediate solution and continously experimenting to help my clients achieve their goals</p>
+                <button class="py-4 px-10 rounded-md bg-primary text-white font-bold hover:bg-sky-400">Let's Talk</button>
+
+                <div class="mt-12 mb-8 flex gap-4 items-center ">
+                    <p>Check Out My:</p>
+                    <div class="flex space-x-3">
+                        <a href="#" class="text-white text-3xl"><i class="fa-brands fa-telegram text-white "></i></a>
+                        <a href="#" class="text-white text-3xl"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="#" class="text-white text-3xl"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="text-white text-3xl"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- right side -->
+             <div class="md:w-1/2">
+                <img class="w-full rounded-xl" src="/Folder3/1_KvD80CYnbw0f22mQ9P9F2g.png" alt="">
+             </div>
+        </div>
+    </section>
+    <!-- services -->
+     <section class="max-w-7xl mx-auto px-5 my-6 text-white">
+        <div class="text-center">
+            <p class="mb-3 font-medium">My Services</p>
+            <p class="text-primary text-3xl font-bold mb-16">What I do</p>
+        </div>
+        
+     <!-- services card -->
+      <div class="my-16 flex flex-col md:flex-row justify-around items-center gap-12">
+        <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow[#5dadec3b] cursor-pointer shadow-xl text-white">
+            <img class="w-[196] mb-12 mx-auto" src="web-design.svg" alt="">
+            <h5 class="text-center my-5 text-xl">Frontend Development</h5>
+            <p class="text-justify">Strive To create visually impact design that effects communicate, messages and meet their unique needs.</p>
+        </div>
+        <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow[#5dadec3b] cursor-pointer shadow-xl text-white">
+            <img class="w-[196] mb-12 mx-auto" src="web-design.svg" alt="">
+            <h5 class="text-center my-5 text-xl">Frontend Development</h5>
+            <p class="text-justify">Strive To create visually impact design that effects communicate, messages and meet their unique needs.</p>
+        </div>
+        <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow[#5dadec3b] cursor-pointer shadow-xl text-white">
+            <img class="w-[196] mb-12 mx-auto" src="web-design.svg" alt="">
+            <h5 class="text-center my-5 text-xl">Frontend Development</h5>
+            <p class="text-justify">Strive To create visually impact design that effects communicate, messages and meet their unique needs.</p>
+        </div>
+      </div>
+     </section>
+     <!-- projects -->
+     <section>
+        
+     </section>
+      
+      
+    <script src="script.js"></script>
+</body>
+
+</html>
